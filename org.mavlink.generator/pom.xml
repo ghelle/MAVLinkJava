@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.mavlink</groupId>
+		<artifactId>org.mavlink.maven</artifactId>
+		<version>1.0.5</version>
+		<relativePath>../org.mavlink.maven</relativePath>
+	</parent>
+	<artifactId>org.mavlink.generator</artifactId>
+	<version>1.0.5</version>
+	<packaging>jar</packaging>
+	<name>MAVLink Java Generator</name>
+	<description>MAVLink Java code generator for embedded devices or Ground Stations</description>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<testSourceDirectory>test</testSourceDirectory>
+	</build>
+	<dependencies>
+		<dependency>
+			<groupId>org.mavlink</groupId>
+			<artifactId>org.mavlink.util</artifactId>
+			<version>1.0.4</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<url>https://code.google.com/p/mavlinkjava</url>
+</project>
