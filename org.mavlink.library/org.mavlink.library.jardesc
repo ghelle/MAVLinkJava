@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
 <jardesc>
-    <jar path="org.mavlink.generator/Java/lib/org.mavlink.library-1.0.5.jar"/>
+    <jar path="org.mavlink.generator/Java/lib/org.mavlink.library-1.0.6.jar"/>
     <options buildIfNeeded="true" compress="true" descriptionLocation="/org.mavlink.library/org.mavlink.library.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>
@@ -11,11 +11,11 @@
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
-        <file path="/org.mavlink.library/.project"/>
-        <javaElement handleIdentifier="=org.mavlink.library/src"/>
-        <javaElement handleIdentifier="=org.mavlink.library/test"/>
-        <file path="/org.mavlink.library/.pmd"/>
         <javaElement handleIdentifier="=org.mavlink.library/generated"/>
+        <file path="/org.mavlink.library/.pmd"/>
         <file path="/org.mavlink.library/.classpath"/>
+        <javaElement handleIdentifier="=org.mavlink.library/src"/>
+        <file path="/org.mavlink.library/.project"/>
+        <javaElement handleIdentifier="=org.mavlink.library/test"/>
     </selectedElements>
 </jardesc>

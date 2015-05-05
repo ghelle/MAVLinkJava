@@ -20,7 +20,7 @@
 		<dependency>
 			<groupId>org.mavlink</groupId>
 			<artifactId>org.mavlink.util</artifactId>
-			<version>1.0.4</version>
+			<version>1.0.5</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>

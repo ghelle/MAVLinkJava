@@ -33,11 +33,6 @@ import java.util.Comparator;
  */
 public class FieldCompare implements Comparator<MAVLinkField> {
 
-    /**
-     * {@inheritDoc}
-     * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
-     */
-    @Override
     public int compare(MAVLinkField field2, MAVLinkField field1) {
         //Sort on type size
         if (field1.getType().getTypeSize() > field2.getType().getTypeSize()) {
