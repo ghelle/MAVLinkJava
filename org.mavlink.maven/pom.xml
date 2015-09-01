@@ -4,17 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.mavlink</groupId>
 	<artifactId>org.mavlink.maven</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.6</version>
 	<packaging>pom</packaging>
 	<name>MAVLink Java Project</name>
 	<description>MAVLink Java code generator and library for embedded devices or Ground Stations</description>
+	<url>https://github.com/ghelle/MAVLinkJava</url>
 	<properties>
-		<mavlink.java.version>1.0.5</mavlink.java.version>
+		<mavlink.java.version>1.0.6</mavlink.java.version>
 	</properties>
 	<modules>
 		<module>../org.mavlink.util</module>
 		<module>../org.mavlink.generator</module>
 		<module>../org.mavlink.library</module>
 	</modules>
-	<url>https://code.google.com/p/mavlinkjava</url>
 </project>

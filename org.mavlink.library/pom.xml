@@ -5,21 +5,24 @@
 		<groupId>org.mavlink</groupId>
 		<artifactId>org.mavlink.maven</artifactId>
 		<relativePath>../org.mavlink.maven</relativePath>
-		<version>1.0.5</version>
+		<version>1.0.6</version>
 	</parent>
 	<artifactId>org.mavlink.library</artifactId>
 	<packaging>jar</packaging>
+	<version>{mavlink.java.version}</version>
 	<name>MAVLink Java Library</name>
 	<description>MAVLink Java Library for embedded devices or Ground Stations</description>
+	<url>https://github.com/ghelle/MAVLinkJava</url>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
-				<version>1.8</version>
+				<version>1.9.1</version>
 				<executions>
 					<execution>
+						<id>add-source</id>
 						<phase>generate-sources</phase>
 						<goals>
 							<goal>add-source</goal>
@@ -39,7 +42,7 @@
 		<dependency>
 			<groupId>org.mavlink</groupId>
 			<artifactId>org.mavlink.util</artifactId>
-			<version>1.0.5</version>
+			<version>{mavlink.java.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -48,7 +51,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<url>https://code.google.com/p/mavlinkjava</url>
-	<version>1.0.5</version>
 </project>

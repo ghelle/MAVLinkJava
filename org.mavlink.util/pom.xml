@@ -5,16 +5,15 @@
 		<groupId>org.mavlink</groupId>
 		<artifactId>org.mavlink.maven</artifactId>
 		<relativePath>../org.mavlink.maven</relativePath>
-		<version>1.0.5</version>
+		<version>1.0.6</version>
 	</parent>
 	<artifactId>org.mavlink.util</artifactId>
-	<version>1.0.5</version>
+	<version>{mavlink.java.version}</version>
 	<packaging>jar</packaging>
 	<name>MAVLink Java Tools</name>
 	<description>MAVLink Java CRC calculation and messages interface for embedded devices or Ground Stations</description>
+	<url>https://github.com/ghelle/MAVLinkJava</url>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 	</build>
-
-	<url>https://code.google.com/p/mavlinkjava</url>
 </project>
