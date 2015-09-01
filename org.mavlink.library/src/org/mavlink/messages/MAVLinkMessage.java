@@ -23,7 +23,6 @@
 package org.mavlink.messages;
 
 import java.io.IOException;
-import java.io.Serializable;
 
 import org.mavlink.IMAVLinkMessage;
 
@@ -50,7 +49,7 @@ import org.mavlink.IMAVLinkMessage;
  * @version $Rev: 3 $
  *
  */
-public abstract class MAVLinkMessage extends MAVLinkMessageCoder implements IMAVLinkMessage, Serializable {
+public abstract class MAVLinkMessage extends MAVLinkMessageCoder implements IMAVLinkMessage {
 
     /**
      * Serial UID
