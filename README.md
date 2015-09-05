@@ -70,16 +70,16 @@ You can use also getNextMessageWithoutBlocking() : If bytes available, try to re
 
 Use encode() method on MAVLink message to generate a byte buffer so you can send it in a Data Output Stream.
 {{{
-msg_heartbeat hb = new msg_heartbeat(sysId, componentId);
-hb.sequence = sequence++;
-hb.autopilot = autopilot;
-hb.base_mode = base_mode;
-hb.custom_mode = custom_mode;
-hb.mavlink_version = mavlink_version;
-hb.system_status = system_status;
-hb.type = type;
-byte[] result = hb.encode();
-dos.put(result);
+
+            msg_heartbeat hb = new msg_heartbeat(sysId, componentId);
+            hb.sequence = sequence++;
+            hb.autopilot = MAV_AUTOPILOT.MAV_AUTOPILOT_PX4;
+            hb.base_mode = MAV_MODE_FLAG.MAV_MODE_FLAG_STABILIZE_ENABLED;
+            hb.custom_mode = custom_mode;
+            hb.mavlink_version = 3;
+            hb.system_status = MAV_STATE.MAV_STATE_POWEROFF;
+            byte[] result = hb.encode();
+            dos.put(result);
 }}}
 
 
