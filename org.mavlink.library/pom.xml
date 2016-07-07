@@ -9,7 +9,6 @@
 	</parent>
 	<artifactId>org.mavlink.library</artifactId>
 	<packaging>jar</packaging>
-	<version>{mavlink.java.version}</version>
 	<name>MAVLink Java Library</name>
 	<description>MAVLink Java Library for embedded devices or Ground Stations</description>
 	<url>https://github.com/ghelle/MAVLinkJava</url>
