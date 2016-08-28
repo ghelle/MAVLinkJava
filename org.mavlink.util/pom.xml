@@ -8,7 +8,6 @@
 		<version>1.0.6</version>
 	</parent>
 	<artifactId>org.mavlink.util</artifactId>
-	<version>{mavlink.java.version}</version>
 	<packaging>jar</packaging>
 	<name>MAVLink Java Tools</name>
 	<description>MAVLink Java CRC calculation and messages interface for embedded devices or Ground Stations</description>

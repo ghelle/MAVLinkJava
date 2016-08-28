@@ -8,7 +8,6 @@
 		<relativePath>../org.mavlink.maven</relativePath>
 	</parent>
 	<artifactId>org.mavlink.generator</artifactId>
-	<version>{mavlink.java.version}</version>
 	<packaging>jar</packaging>
 	<name>MAVLink Java Generator</name>
 	<description>MAVLink Java code generator for embedded devices or Ground Stations</description>
@@ -21,7 +20,7 @@
 		<dependency>
 			<groupId>org.mavlink</groupId>
 			<artifactId>org.mavlink.util</artifactId>
-			<version>{mavlink.java.version}</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
