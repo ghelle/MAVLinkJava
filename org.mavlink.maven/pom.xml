@@ -9,9 +9,6 @@
 	<name>MAVLink Java Project</name>
 	<description>MAVLink Java code generator and library for embedded devices or Ground Stations</description>
 	<url>https://github.com/ghelle/MAVLinkJava</url>
-	<properties>
-		<mavlink.java.version>1.0.6</mavlink.java.version>
-	</properties>
 	<modules>
 		<module>../org.mavlink.util</module>
 		<module>../org.mavlink.generator</module>
